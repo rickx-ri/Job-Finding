@@ -1,0 +1,27 @@
+[
+  {
+    "id": "D1",
+    "tex": "resumes/D1_embodied/Ziyu_Xu_D1.tex",
+    "pdf": "resumes/D1_embodied/Ziyu_Xu_D1.pdf"
+  },
+  {
+    "id": "D2",
+    "tex": "resumes/D2_control/Ziyu_Xu_D2.tex",
+    "pdf": "resumes/D2_control/Ziyu_Xu_D2.pdf"
+  },
+  {
+    "id": "D3",
+    "tex": "resumes/D3_vlm/Ziyu_Xu_D3.tex",
+    "pdf": "resumes/D3_vlm/Ziyu_Xu_D3.pdf"
+  },
+  {
+    "id": "D4",
+    "tex": "resumes/D4_autonomy/Ziyu_Xu_D4.tex",
+    "pdf": "resumes/D4_autonomy/Ziyu_Xu_D4.pdf"
+  },
+  {
+    "id": "D5",
+    "tex": "resumes/D5_systems/Ziyu_Xu_D5.tex",
+    "pdf": "resumes/D5_systems/Ziyu_Xu_D5.pdf"
+  }
+]
