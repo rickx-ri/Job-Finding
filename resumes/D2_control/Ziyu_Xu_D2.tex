@@ -1,0 +1,159 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[margin=0.65in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=black
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+
+% section style
+\titleformat{\section}
+    {\bfseries\large}
+    {}
+    {0em}
+    {}
+    [\titlerule]
+
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% custom entry macro
+\newcommand{\resumeSubheading}[4]{
+    \begin{tabularx}{\textwidth}{@{}Xr@{}}
+        \textbf{#1} & \textbf{#2} \\
+        #3 & #4 \\
+    \end{tabularx}
+}
+
+\newcommand{\resumeItem}[1]{
+    \item #1
+}
+
+\begin{document}
+
+
+%==================== HEADER ====================
+\begin{center}
+    {\LARGE \textbf{Ziyu (Rick) Xu}} \\[2pt]
+    {\small Robotics Institute, Carnegie Mellon University} \\[1pt]
+    {\small \textbf{Research Interests:} Learning-Augmented Control, Whole-Body Control, and Safe Locomotion} \\[1pt]
+    {\small
+    +1 7348005258
+    \,|\, 
+    \href{mailto:rickx@andrew.cmu.edu}{rickx@andrew.cmu.edu}
+    } \\[1pt]
+\end{center}
+
+%==================== EDUCATION ====================
+\section*{Education}
+\resumeSubheading
+{Carnegie Mellon University (CMU)}
+{Aug. 2026 -- Expected 2028}
+{\hspace*{1.4em}Master of Science in Robotics (MSR)}
+{Pittsburgh, PA}
+\resumeSubheading
+{University of Michigan, Ann Arbor (UM)}
+{Oct. 2024 -- May 2026}
+{\hspace*{1.4em}B.S.E. in Mechanical Engineering (Robotics Track); Minor in Computer Science}
+{GPA: 3.85/4.0 (Top 5\%)}
+\begin{itemize}[leftmargin=2.4em, itemsep=0.5pt, topsep=0pt]
+    \item \textbf{Core Coursework:} Robot Learning, RL, Embedded Systems, Optimal Control, Convex Optimization
+\end{itemize}
+
+\resumeSubheading
+{Shanghai Jiao Tong University (SJTU)}
+{Sep. 2022 -- Jul. 2026}
+{\hspace*{1.4em}B.S.E. in Electrical and Computer Engineering}
+{GPA: 3.56/4.0 (Top 20\%)}
+\begin{itemize}[leftmargin=2.4em, itemsep=0.5pt, topsep=0pt]
+    \item \textbf{Core Coursework:} Algorithms, Mathematical Foundations, Probability Theory, Signals and Systems
+\end{itemize}
+\section*{Research Experiences and Internships}
+\resumeSubheading
+{Intelligent Control Lab, Carnegie Mellon University}
+{Aug. 2026 -- Present}
+{\hspace*{1.4em}Graduate Student Researcher, advised by Prof. Changliu Liu}
+{Pittsburgh, PA}
+\begin{itemize}[leftmargin=2.4em, itemsep=0.5pt, topsep=0pt]
+\small
+\resumeItem{\textbf{Whole-Body and Safe Locomotion Research (ongoing):} Investigating whole-body control, safety with control barrier functions (CBFs), and world-model-based locomotion.}
+\resumeItem{\textbf{Dexmate Bimanual Manipulation Demo, IROS 2026:} Contributed to a bimanual block-stacking demonstration combining agent planning with policy execution. Implemented the agent component, prepared the on-site environment, adapted the system to different grippers, and performed system calibration.}
+\end{itemize}
+
+\resumeSubheading
+{Computational Autonomy and Robotics Lab, UM }
+{Jun. 2025 -- Apr. 2026}
+{\hspace*{1.4em}Research Assistant, Directed by Prof. Maani Ghaffari}
+{Ann Arbor, MI}
+\begin{itemize}[leftmargin=2.4em, itemsep=0.5pt, topsep=0pt]
+\small
+\resumeItem{\textbf{Learning-Augmented Lie-MPC:} Developed and field-tested an autonomous surface vehicle controller that estimates residual wind/current disturbances online and corrects the dynamics used by MPC. Achieved a 20\% improvement in trajectory-tracking performance over baseline MPC in real-ASV experiments.}
+\resumeItem{\textbf{Sensor Integration:} Designed mounts and integrated, aligned, and calibrated GPS, lidar, IMU, and cameras for field data collection and closed-loop control.}
+\end{itemize}
+
+\resumeSubheading
+{ Unitree Robotics, R\&D Department, Embodied AI Team}
+{May 2026 -- Present}
+{\hspace*{1.4em}Research Intern, Humanoid Robot Foundation Models}
+{Hangzhou, China}
+\begin{itemize}[leftmargin=2.4em, itemsep=0.5pt, topsep=0pt]
+\small
+\resumeItem{\textbf{Real-Robot Policy Infrastructure:} Built and validated a closed-loop stack on Unitree H2/G1 humanoids integrating teleoperation, VLA/WAM and whole-body policy adapters, rollout logging, evaluation, controller interfaces, and policy fine-tuning; enabled one-command launches across platforms.}
+\resumeItem{\textbf{VLA Adaptation and Post-Training:} Deployed and fine-tuned Isaac GR00T/OpenPI policies with SONIC whole-body control using real-robot rollout traces. Developing phase-aware adaptation across embodiments by aligning semantic task progress and execution timing.}
+\end{itemize}
+
+\newpage
+{\small Ziyu (Rick) Xu}\hfill{\small Research experience continued}
+\vspace{4pt}
+\resumeSubheading
+{Intelligent Robotics and Autonomy Lab , UM}
+{Oct. 2024 -- Apr. 2026}
+{\hspace*{1.4em}Research Assistant, Directed by Prof. Vasileios Tzoumas}
+{Ann Arbor, MI}
+\begin{itemize}[leftmargin=2.4em, itemsep=0.5pt, topsep=0pt]
+\small
+\resumeItem{\textbf{Multi-Robot Simulation and ROS2:} Rebuilt a Unity + AirSim multi-drone testbed with revised dynamics and sensing; migrated SlideSLAM communication from ROS1 to ROS2 for bandwidth-limited active-SLAM evaluation.}
+\resumeItem{\textbf{Communication-Aware Exploration:} Developed distributed EXP3-style algorithms using submodular objectives and bandit feedback to balance map coverage and communication cost in simulation.}
+\end{itemize}
+
+\resumeSubheading
+{Shanghai Artificial Intelligence Lab \& IRMV, SJTU }
+{Apr. 2026 -- Present}
+{\hspace*{1.4em}Research Assistant, Directed by Prof. Junchi Yan and Prof. Hesheng Wang}
+{Shanghai, China}
+\begin{itemize}[leftmargin=2.4em, itemsep=0.5pt, topsep=0pt]
+\small
+\resumeItem{\textbf{Iterative Visual KV Compression:} Studied errors from reusing retained visual KV entries after neighboring tokens are removed in multi-turn and streaming inference. Developed context-aware re-encoding at original positions and compared with inheritance and restoration under matched memory and runtime budgets.}
+\end{itemize}
+
+\section*{Publications and Manuscripts}
+\begin{itemize}[leftmargin=1.4em,itemsep=3pt,topsep=2pt]
+\small
+\item Yinan Dong, \textbf{Ziyu Xu}, Tsimafei Lazouski, Sangli Teng, and Maani Ghaffari.      ``Online Learning-Enhanced Lie Algebraic MPC for Robust Autonomous Surface Vehicle Control'',      \textit{IEEE Robotics and Automation Letters (RA-L)}, revised manuscript under review, 2025.
+\item Xiaohan Wang\textsuperscript{*}, \textbf{Ziyu Xu}\textsuperscript{*}, Xuyi Yang.      ``Re-encoding What You Keep After Every Compression: Retained Visual KV Is Computed in a Context That No Longer Exists'',      \textit{Submitted to ICLR 2027}. \textit{\textsuperscript{*}Equal contribution.}
+\item Xuyi Yang, Xiaohan Wang, Wenhao Zhang, and \textbf{Ziyu Xu}.      ``StreamJIT: Continuous Observation and Just-in-Time Deliberation for Proactive Streaming Video Assistants'',      \textit{Submitted to ICLR 2027}.
+\item C. Yuan, J. Jiang, K. Yang, \textbf{Z. Xu}, \ldots, and Y. Ban.      ``Systematic Evaluation and Guidelines for Segment Anything Model in Surgical Video Analysis'',      \textit{npj Digital Surgery}, accepted, 2024.
+\end{itemize}
+\section*{Selected Awards}
+\small Gold Medal, University Physics Competition (2023); Dean's Honor List, University of Michigan (2024, 2025).
+\section*{Skills}
+\begin{itemize}[leftmargin=2.4em, itemsep=0.5pt, topsep=0pt]
+\small
+\resumeItem{\textbf{Control and Autonomy:} MPC, learning-augmented control, RL, whole-body policy integration, real-robot experiments, sensor calibration}
+\resumeItem{\textbf{Tools:} Python/C++, ROS/ROS2, PyTorch, Unity + AirSim, Linux, Git, CAD, sensor integration}
+\end{itemize}
+\end{document}
