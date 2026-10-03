@@ -1,0 +1,50 @@
+[
+  {
+    "file": "resumes/master/Ziyu_Xu_master_redline.tex",
+    "original_tokens": 957,
+    "new_tokens": 1037,
+    "added_tokens": 80,
+    "deleted_tokens": 0,
+    "exact_original_and_new_reconstruction": true
+  },
+  {
+    "file": "resumes/D1_embodied/Ziyu_Xu_D1_redline.tex",
+    "original_tokens": 957,
+    "new_tokens": 661,
+    "added_tokens": 177,
+    "deleted_tokens": 473,
+    "exact_original_and_new_reconstruction": true
+  },
+  {
+    "file": "resumes/D2_control/Ziyu_Xu_D2_redline.tex",
+    "original_tokens": 957,
+    "new_tokens": 677,
+    "added_tokens": 333,
+    "deleted_tokens": 613,
+    "exact_original_and_new_reconstruction": true
+  },
+  {
+    "file": "resumes/D3_vlm/Ziyu_Xu_D3_redline.tex",
+    "original_tokens": 957,
+    "new_tokens": 646,
+    "added_tokens": 296,
+    "deleted_tokens": 607,
+    "exact_original_and_new_reconstruction": true
+  },
+  {
+    "file": "resumes/D4_autonomy/Ziyu_Xu_D4_redline.tex",
+    "original_tokens": 957,
+    "new_tokens": 659,
+    "added_tokens": 342,
+    "deleted_tokens": 640,
+    "exact_original_and_new_reconstruction": true
+  },
+  {
+    "file": "resumes/D5_systems/Ziyu_Xu_D5_redline.tex",
+    "original_tokens": 957,
+    "new_tokens": 656,
+    "added_tokens": 320,
+    "deleted_tokens": 621,
+    "exact_original_and_new_reconstruction": true
+  }
+]

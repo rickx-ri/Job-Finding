@@ -1,0 +1,183 @@
+{
+  "pdfs": [
+    {
+      "file": "output/pdf/Research_Report.pdf",
+      "pages": 6,
+      "chars": 6433,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "d1304eb74332f878e4e14d0f92b721d5a90f822a0f8afc054dfeaade3636867c"
+    },
+    {
+      "file": "output/pdf/Tool_Evaluation.pdf",
+      "pages": 3,
+      "chars": 3327,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "9660a46f01f62cdb9725bb8fdf6790a86e1cb0f039e7178ad82b290c4e3dc1e8"
+    },
+    {
+      "file": "resumes/D1_embodied/Ziyu_Xu_D1.pdf",
+      "pages": 2,
+      "chars": 4879,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "cffef6393fd6757c677b0d6d622793eb69b647c7718c13351454bf4e5ba33d25"
+    },
+    {
+      "file": "resumes/D1_embodied/Ziyu_Xu_D1_redline.pdf",
+      "pages": 2,
+      "chars": 8816,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "3771fdc5b82ff81f97418d3e1466a0477ac23df880a143cd8fbf75b327ee2b88"
+    },
+    {
+      "file": "resumes/D2_control/Ziyu_Xu_D2.pdf",
+      "pages": 2,
+      "chars": 4992,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "a4eb4d8f54c919895e077ef3ab5c492e512b18a3738096507930cb75f9cb5c1b"
+    },
+    {
+      "file": "resumes/D2_control/Ziyu_Xu_D2_redline.pdf",
+      "pages": 2,
+      "chars": 9968,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "d73e276c4c8f89c4c9b954a10a10f968273ab25477bda2ad8160629fbe93211c"
+    },
+    {
+      "file": "resumes/D3_vlm/Ziyu_Xu_D3.pdf",
+      "pages": 2,
+      "chars": 4751,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "7811c55cac4c812476794a50f5cba305065232c6fe5daff2c03115244dabfac3"
+    },
+    {
+      "file": "resumes/D3_vlm/Ziyu_Xu_D3_redline.pdf",
+      "pages": 2,
+      "chars": 9719,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "b9440f96944cbc376f97b6cf21696a8b22faa7abb68811dabc3c420120f9b0b5"
+    },
+    {
+      "file": "resumes/D4_autonomy/Ziyu_Xu_D4.pdf",
+      "pages": 2,
+      "chars": 4854,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "0f04cc3893ffca836ec9e11d38d6c9a4b6b80f2de0aecb3c352bf012e6df70dc"
+    },
+    {
+      "file": "resumes/D4_autonomy/Ziyu_Xu_D4_redline.pdf",
+      "pages": 2,
+      "chars": 10044,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "9ebf0d1d214e41bf44935d3e20e8f5e9e5a58fea2f86f4cf2ebeed7deb543ea9"
+    },
+    {
+      "file": "resumes/D5_systems/Ziyu_Xu_D5.pdf",
+      "pages": 2,
+      "chars": 4818,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "c0ad45dcbbc2f5111874e11900dbf04bea7735432392354c8a80417b915a9215"
+    },
+    {
+      "file": "resumes/D5_systems/Ziyu_Xu_D5_redline.pdf",
+      "pages": 2,
+      "chars": 9829,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "3a241f22804cdac5e4548da60f18866b010a48d0fb3bc0cf7f37dd2cf9d32868"
+    },
+    {
+      "file": "resumes/master/Ziyu_Xu_master.pdf",
+      "pages": 2,
+      "chars": 7755,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "4bf1b65d804a40ca1eadd198b30d5f3e5f0af42f439bf76ae91815cc2a9b186c"
+    },
+    {
+      "file": "resumes/master/Ziyu_Xu_master_redline.pdf",
+      "pages": 2,
+      "chars": 8035,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "119d842cf259de04bb94c1f6daa83c767fffb57e1a4c972944442aba442f8e15"
+    },
+    {
+      "file": "resumes/original/CMU_Ziyu_original.pdf",
+      "pages": 2,
+      "chars": 7129,
+      "text_extractable": true,
+      "page_edge_check": true,
+      "sha256": "d54ca619516093a910004a22704e6c93cea12d66dc9cc5eb59e2cf2e45163ca7"
+    }
+  ],
+  "xlsx": [
+    {
+      "sheet": "xl/worksheets/sheet1.xml",
+      "panes": {
+        "xSplit": "3",
+        "ySplit": "4",
+        "topLeftCell": "D5",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      }
+    },
+    {
+      "sheet": "xl/worksheets/sheet2.xml",
+      "panes": {
+        "xSplit": "1",
+        "ySplit": "4",
+        "topLeftCell": "B5",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      }
+    },
+    {
+      "sheet": "xl/worksheets/sheet3.xml",
+      "panes": {
+        "xSplit": "1",
+        "ySplit": "4",
+        "topLeftCell": "B5",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      }
+    },
+    {
+      "table": "xl/tables/table1.xml",
+      "filter": {
+        "ref": "A4:AE61"
+      }
+    },
+    {
+      "table": "xl/tables/table2.xml",
+      "filter": {
+        "ref": "A4:H50"
+      }
+    },
+    {
+      "table": "xl/tables/table3.xml",
+      "filter": {
+        "ref": "A4:H9"
+      }
+    }
+  ],
+  "native_hyperlinks": 103,
+  "numeric_date_cells": 61,
+  "dates_sortable_numeric": true,
+  "duplicate_job_ids": 0,
+  "duplicate_official_urls": 0,
+  "resume_mapping_valid": true,
+  "redline_token_reconstruction": true,
+  "latex_overfull": [],
+  "native_excel_interaction": "未使用桌面Excel；验证导出XML与artifact-tool渲染/重算"
+}
